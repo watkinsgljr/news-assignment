@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="./assets/css/reset.css" rel="stylesheet" type="text/css">
+    <!-- <link href="./assets/css/reset.css" rel="stylesheet" type="text/css"> -->
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
 
-<div id="main-container">
-    <header><h1>New York Times Search</h1></header>
+    <div id="main-container">
+        <header>
+            <h1>New York Times Search</h1>
+        </header>
 
-    <form action="/action_page.php">
-        <label for="search-term">Search Term:</label>
-        <input type="search" name="search" id="seacrh" value="search"><br>
-        <label for="num-of-records">Number of Records to Retrieve</label>
-        <input type="number" name="num-of-records" id="num-of-records" value="5"><br>
-        <label for="start-year">Start Year</label>
-        <input type="start-year" name="start-year" id="start-year" value=" "><br>
-        <label for="start-year">Start Year</label>
-        <input type="end-year" name="end-year" id="end-year" value=" "><br>
-        <input type="submit" value="Search">
-    </form>
-
-
-</div>
-
+        <form>
+            <label for="search-term">Search for: </label>
+            <input type="search" name="search" id="search" value="search"><br>
+            <label for="num-of-records">Number of Records to Retrieve</label>
+            <input type="number" name="num-of-records" id="num-of-records" value="5"><br>
+            <label for="start-year">Start Year</label>
+            <input type="start-year" name="start-year" id="start-year" value=" "><br>
+            <label for="start-year">Start Year</label>
+            <input type="end-year" name="end-year" id="end-year" value=" "><br>
+            <input type="submit" value="Search" id="submit">
+        </form>
 
 
+    </div>
 
 
-    <script src="./assets/javascript/game.js"></script>
+
+
+
+    <script src="./assets/javascript/js.js"></script>
 </body>
+
 </html>
