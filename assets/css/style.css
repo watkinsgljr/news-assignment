@@ -1,0 +1,24 @@
+div {
+    border: solid red 1px;
+}
+
+#main-container {
+    display: flex;
+    height: 90vh;
+    width: 80vw;
+    margin: auto;
+    border: solid red 1px;
+    flex-direction: column;
+}
+
+header {
+    margin: 0 auto;
+    border: solid red 1px;
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+   
+}
